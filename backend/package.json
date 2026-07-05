@@ -1,0 +1,12 @@
+{
+  "name": "cloud-expense-tracker",
+  "version": "1.0.0",
+  "description": "Cloud Expense Tracker deployed on AWS ECS Fargate",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

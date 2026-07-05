@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Expense Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <div class="logo">
+            <i class="fa-solid fa-wallet"></i>
+            <h2>Cloud Expense Tracker</h2>
+        </div>
+
+        <div class="status">
+            <span class="online"></span>
+            Running on AWS
+        </div>
+
+    </header>
+
+    <!-- Main Container -->
+    <main class="container">
+
+        <!-- Dashboard Cards -->
+        <section class="dashboard">
+
+            <div class="card total">
+                <i class="fa-solid fa-money-bill-wave"></i>
+
+                <div>
+                    <h3>Total Expenses</h3>
+                    <h2 id="totalExpense">₹0</h2>
+                </div>
+            </div>
+
+            <div class="card records">
+                <i class="fa-solid fa-list-check"></i>
+
+                <div>
+                    <h3>Total Records</h3>
+                    <h2 id="totalRecords">0</h2>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Add Expense -->
+        <section class="expense-form">
+
+    <h2>Add New Expense</h2>
+
+    <form id="expenseForm">
+
+        <div class="input-group">
+
+            <label>Expense Name</label>
+
+            <input
+                type="text"
+                id="expenseName"
+                placeholder="Enter expense name"
+                required>
+
+        </div>
+
+        <div class="input-group">
+
+            <label>Category</label>
+
+            <select id="category">
+
+                <option>Food</option>
+                <option>Travel</option>
+                <option>Shopping</option>
+                <option>Bills</option>
+                <option>Education</option>
+                <option>Entertainment</option>
+                <option>Other</option>
+
+            </select>
+
+        </div>
+
+        <div class="input-group">
+
+            <label>Amount</label>
+
+            <input
+                type="number"
+                id="amount"
+                placeholder="Enter amount"
+                required>
+
+        </div>
+
+        <div class="input-group">
+
+            <label>Date</label>
+
+            <input
+                type="date"
+                id="date"
+                required>
+
+        </div>
+
+        <button type="submit" class="btn" id="addBtn">
+
+            <i class="fa-solid fa-plus"></i>
+
+            Add Expense
+
+        </button>
+
+    </form>
+
+</section>
+
+        </section>
+
+        <!-- Expense List -->
+        <section class="expense-list">
+
+            <div class="list-header">
+
+                <h2>Recent Expenses</h2>
+
+            </div>
+
+            <div id="expenseContainer">
+
+                <!-- Dynamic Data -->
+
+                <!-- Example -->
+
+                <!--
+                <div class="expense-item">
+
+                    <div class="expense-info">
+
+                        <h3>Food</h3>
+
+                        <p>Category : Food</p>
+
+                        <small>10 July 2026</small>
+
+                    </div>
+
+                    <div class="expense-action">
+
+                        <span>₹250</span>
+
+                        <button type="submit" class="btn" id="addBtn">
+
+                           <i class="fa-solid fa-plus"></i>
+
+                            Add Expense
+
+                        </button>
+                    </div>
+
+                </div>
+                -->
+
+            </div>
+
+        </section>
+
+        <!-- AWS Information -->
+       <!-- Technology Stack -->
+<section class="aws-card">
+
+    <h2>
+        <i class="fa-solid fa-layer-group"></i>
+        Project Technology Stack
+    </h2>
+
+    <div class="aws-grid">
+
+        <div class="aws-box">
+            <i class="fa-brands fa-git-alt"></i>
+            <h4>Git</h4>
+            <p>Version Control</p>
+        </div>
+
+        <div class="aws-box">
+            <i class="fa-brands fa-github"></i>
+            <h4>GitHub</h4>
+            <p>Source Code Repository</p>
+        </div>
+
+        <div class="aws-box">
+            <i class="fa-brands fa-docker"></i>
+            <h4>Docker</h4>
+            <p>Containerization</p>
+        </div>
+
+        <div class="aws-box">
+            <i class="fa-solid fa-box"></i>
+            <h4>Amazon ECR</h4>
+            <p>Image Repository</p>
+        </div>
+
+        <div class="aws-box">
+            <i class="fa-solid fa-server"></i>
+            <h4>Amazon ECS</h4>
+            <p>Fargate Deployment</p>
+        </div>
+
+        <div class="aws-box">
+            <i class="fa-solid fa-chart-line"></i>
+            <h4>CloudWatch</h4>
+            <p>Logs & Monitoring</p>
+        </div>
+
+        <div class="aws-box">
+            <i class="fa-solid fa-user-shield"></i>
+            <h4>AWS IAM</h4>
+            <p>Roles & Permissions</p>
+        </div>
+
+        <div class="aws-box">
+            <i class="fa-brands fa-node-js"></i>
+            <h4>Node.js + Express</h4>
+            <p>Backend REST API</p>
+        </div>
+
+        <div class="aws-box">
+            <i class="fa-solid fa-code"></i>
+            <h4>HTML • CSS • JavaScript</h4>
+            <p>Responsive Frontend</p>
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+<footer>
+
+    <p>
+        🚀 Built with
+        <strong>
+            HTML • CSS • JavaScript • Node.js • Express • Docker • Amazon ECR • Amazon ECS Fargate • CloudWatch • IAM • Git • GitHub
+        </strong>
+    </p>
+
+</footer>
+
+<div id="toast" class="toast"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
