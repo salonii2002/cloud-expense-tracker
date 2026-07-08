@@ -117,11 +117,11 @@ app.use((req, res) => {
 });
 
 // Start Server
-app.listen(PORT, () => {
+app.listen(PORT, "0.0.0.0", () => {
 
     console.log("-------------------------------------");
     console.log("Cloud Expense Tracker Started");
-    console.log(`Server Running : http://localhost:${PORT}`);
+    console.log(`Server Running on Port ${PORT}`);
     console.log("-------------------------------------");
 
 });
