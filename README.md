@@ -278,18 +278,21 @@ Through this project I learned:
 
 ---
 
-# 👨‍💻 Author
+# 👩‍💻 Author
 
-**Saloni Bhosale**
+## Saloni Bhosale
 
 Computer Engineering Student
 
-AWS | Docker | Node.js | Cloud Computing | JavaScript
+### 📧 Connect with Me
 
-GitHub: https://github.com/YourUsername
+- 💼 LinkedIn: https://www.linkedin.com/in/saloni-bhosale-039642346
+- 💻 GitHub: https://github.com/salonii2002
 
-LinkedIn: https://linkedin.com/in/YourLinkedIn
+### 📂 Project Repository
+
+https://github.com/salonii2002/cloud-expense-tracker
 
 ---
 
-⭐ If you found this project useful, please consider giving it a Star.
+⭐ If you found this project useful, please consider giving it a Star!
