@@ -142,23 +142,51 @@ Web Application
 ---
 # 📸 Project Screenshots
 
-## 🏠 Application Home Page
-![Home](screenshots/01-dashboard.png)
+## 🏠 Home Page
+
+![Home](screenshots/output3.png)
+
+---
+
+## 📊 Expense Dashboard
+
+![Dashboard](screenshots/output1.png)
+
+---
 
 ## ☁️ EC2 Instance
-![EC2](screenshots/03-ec2-instance.png)
 
-## 🐳 Docker Running
-![Docker](screenshots/04-terminal.png)
+![EC2](screenshots/ec2-instance.png)
+
+---
+
+## 🐳 Docker Container Running
+
+![Docker](screenshots/terminal.png)
+
+---
 
 ## 📦 Amazon ECR
-![ECR](screenshots/05-ecr-image.png)
+
+![ECR](screenshots/ecr-image.png)
+
+---
 
 ## 🚀 Amazon ECS
-![ECS](screenshots/06-ecs-task.png)
 
-## 📊 CloudWatch Logs
-![CloudWatch](screenshots/07-cloudwatch.png)
+![ECS](screenshots/ecs-task.png)
+
+---
+
+## 📈 CloudWatch Logs
+
+![CloudWatch](screenshots/cloudwatch.png)
+
+---
+
+## 🔐 IAM Roles
+
+![IAM](screenshots/iam.png)
 
 ---
 
