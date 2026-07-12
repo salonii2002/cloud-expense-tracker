@@ -140,54 +140,25 @@ Web Application
 9. Accessed deployed application
 
 ---
+# 📸 Project Screenshots
 
-# 📸 Screenshots
+## 🏠 Application Home Page
+![Home](screenshots/01-dashboard.png)
 
-## Home Page
+## ☁️ EC2 Instance
+![EC2](screenshots/03-ec2-instance.png)
 
-![Home](screenshots/home.png)
+## 🐳 Docker Running
+![Docker](screenshots/04-terminal.png)
 
----
+## 📦 Amazon ECR
+![ECR](screenshots/05-ecr-image.png)
 
-## Expense Dashboard
+## 🚀 Amazon ECS
+![ECS](screenshots/06-ecs-task.png)
 
-![Dashboard](screenshots/dashboard.png)
-
----
-
-## Docker Container Running
-
-![Docker](screenshots/docker.png)
-
----
-
-## Amazon EC2 Instance
-
-![EC2](screenshots/ec2.png)
-
----
-
-## Amazon Elastic Container Registry (ECR)
-
-![ECR](screenshots/ecr.png)
-
----
-
-## Amazon ECS Cluster
-
-![ECS](screenshots/ecs.png)
-
----
-
-## CloudWatch Logs
-
-![CloudWatch](screenshots/cloudwatch.png)
-
----
-
-## IAM Roles
-
-![IAM](screenshots/iam.png)
+## 📊 CloudWatch Logs
+![CloudWatch](screenshots/07-cloudwatch.png)
 
 ---
 
